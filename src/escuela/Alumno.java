@@ -4,9 +4,9 @@ public class Alumno {
     private String nombre,matricula;
     private ArrayList<Materia> materias;
     
-    public Alumno(String nom, String matri){
-        nombre = nom;
-        matricula = matri;
+    public Alumno(String nombre, String matricula){
+        this.nombre = nombre;
+        this.matricula = matricula;
         materias = new ArrayList<>();
     }
     
