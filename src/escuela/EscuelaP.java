@@ -1,4 +1,4 @@
-package SchoolHm.Paradigmas.tareas;
+package escuela;
 
 import java.util.ArrayList;
 
