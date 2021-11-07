@@ -22,6 +22,10 @@ public class Alumno {
         materias.add(m);
     }
     
+    public void addMateria(String nombreMateria, int semestre) {
+        materias.add(new Materia(nombreMateria, semestre));
+    }
+    
     public void imprimeMaterias(){
         int i = 1;
         System.out.println("Matricula " + matricula + ":");
