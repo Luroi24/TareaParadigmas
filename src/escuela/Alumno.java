@@ -29,8 +29,8 @@ public class Alumno {
     public void imprimeMaterias(){
         int i = 1;
         System.out.println("Matricula " + matricula + ":");
-        for(Materia aux: materias){
-            System.out.println( i++ + ". " + aux.nombreMateria());
+        for(Materia materia: materias){
+            System.out.println( i++ + ". " + materia.getNombreMateria());
         }
     }
     // Test
